@@ -29,9 +29,9 @@ class PhoneNumberSome
 
 		# f = File.open("/home/venkat/Desktop/dictionary.txt", "r")
 		# 		f.each_line do |line|
- 	# 	 			words << line
+ 		#			words << line
 		# 		end
-  # 		print @max_length_word = words.max_by(&:length).length
+  	# print @max_length_word = words.max_by(&:length).length
 		# f.close
 		# 16
 		words = []
