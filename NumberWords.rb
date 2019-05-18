@@ -35,7 +35,7 @@ class PhoneNumberSome
 
 		words.flatten
 
-		words.map(&:upcase) && words_from_dictionary 
+		words.map(&:upcase) & words_from_dictionary 
 	end
 
 	def words_from_dictionary
